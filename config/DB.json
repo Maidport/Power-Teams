@@ -1,0 +1,44 @@
+[
+{"type":"header","version":"4.9.0.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"tayie"},
+{"type":"table","name":"access","database":"tayie","data":
+[
+
+]
+}
+,{"type":"table","name":"categories","database":"tayie","data":
+[
+{"id":"2","category":"breakfast"},
+{"id":"3","category":"dinner"},
+{"id":"1","category":"lunch"},
+{"id":"4","category":"snack"},
+{"id":"6","category":"vegan"},
+{"id":"5","category":"vegetarian"}
+]
+}
+,{"type":"table","name":"menu","database":"tayie","data":
+[
+{"id":"1","item_id":"5dc5a0c2a1281","name":"Pap","photo":"data\/meal\/_5dc5a0c29fdb6.jpeg","description":"Traditional and nice","category":"dinner","price":"25.00","outlet_id":"asdasd12312312312313"},
+{"id":"2","item_id":"5dc696e607e9d","name":"Snack on the GO","photo":"data\/meal\/_5dc696e606ddb.png","description":"Grab a snack on the snack","category":"snack","price":"20.00","outlet_id":"asdasd12312312312313"},
+{"id":"3","item_id":"5dc6aa18cffca","name":"Lunch","photo":"data\/meal\/_5dc6aa18c5c96.jpeg","description":"Try this Meal for lunch. Munchies for lunch","category":"lunch","price":"30.00","outlet_id":"asdasd12312312312313"},
+{"id":"4","item_id":"5dc6aa5bd8caf","name":"Lunch","photo":"data\/meal\/_5dc6aa5bd638d.jpeg","description":"Try this Meal for lunch. Munchies for lunch","category":"lunch","price":"30.00","outlet_id":"asdasd12312312312313"},
+{"id":"5","item_id":"5dc78f0a3eb28","name":"Chow Down","photo":"data\/meal\/_5dc78f0a3d8d3.jpeg","description":"Groupies chow down on whatever the occasion.","category":"snack","price":"50.00","outlet_id":"asdasd12312312312313"},
+{"id":"6","item_id":"5dc78fa59b4d9","name":"Chow Down","photo":"data\/meal\/_5dc78fa59a45c.jpeg","description":"Groupies chow down on whatever the occasion.","category":"snack","price":"50.00","outlet_id":"asdasd12312312312313"},
+{"id":"7","item_id":"5dc78fc90b4d2","name":"Chow Down","photo":"data\/meal\/_5dc78fc906f65.jpeg","description":"Groupies chow down on whatever the occasion.","category":"snack","price":"50.00","outlet_id":"asdasd12312312312313"},
+{"id":"8","item_id":"5dc78fde7b3a7","name":"Chow Down","photo":"data\/meal\/_5dc78fde79f65.jpeg","description":"Groupies chow down on whatever the occasion.","category":"snack","price":"50.00","outlet_id":"asdasd12312312312313"},
+{"id":"9","item_id":"5dc7912be2af9","name":"Chow Down","photo":"data\/meal\/_5dc7912be1a22.jpeg","description":"Groupies chow down on whatever the occasion.","category":"snack","price":"50.00","outlet_id":"asdasd12312312312313"},
+{"id":"10","item_id":"5dc7917d47e4a","name":"Chow Down","photo":"data\/meal\/_5dc7917d46b42.jpeg","description":"Groupies chow down on whatever the occasion.","category":"snack","price":"50.00","outlet_id":"asdasd12312312312313"},
+{"id":"11","item_id":"5dc7918f0bb60","name":"Chow Down","photo":"data\/meal\/_5dc7918f07f05.jpeg","description":"Groupies chow down on whatever the occasion.","category":"snack","price":"50.00","outlet_id":"asdasd12312312312313"}
+]
+}
+,{"type":"table","name":"outlets","database":"tayie","data":
+[
+{"od":"0","OID":"asdasd12312312312313","name":"onile cusines","address":"Home","phone":"0776544389","username":"onile","EmailAddress":"onile@gmail.com","founder":"Onile Monyane","reg_num":"775-725GP","cert":"cert\/cert.pdf","logo":"logo\/onile_2123123123123123123.jpg","team_id":"133245567","comment_id":"2355433455534","ratings_id":"23444234443422","moto":"Food For Fun ","password":"34902ec1d3354a771f60411f9d3c7d4065729a96441cdbc56843573cdf4c9125ecd75406afc631b6eee4928e6a8309a4eabca13a904d3d8dac569f223ff48243"}
+]
+}
+,{"type":"table","name":"users","database":"tayie","data":
+[
+{"id":"1","UID":"38ae30cdbf87c1ee028d53b61ce4669b","firstname":"Ronald","lastname":"Ngwenya","EmailAddress":"1999roniengwe@gmail.com","address":"","phone":"0733412249","nationaliy":"","age":"0","photo":"media\/user\/RTN775.JPG","password":"1024","password_hash":"34902ec1d3354a771f60411f9d3c7d4065729a96441cdbc56843573cdf4c9125ecd75406afc631b6eee4928e6a8309a4eabca13a904d3d8dac569f223ff48243","type":"0","outlet":""}
+]
+}
+]

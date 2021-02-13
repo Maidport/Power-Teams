@@ -1,0 +1,49 @@
+{
+	"server":{
+		"host":"localhost",
+		"username":"root",
+		"password":"",
+		"database":"teams"
+	},
+	"Views":{
+		"Views":"dashboard/choir/uploads/teams/issues/messages/notes/today/profile",
+		"File_ext":".php"
+	},
+	"_api":{
+		"search_control":{
+			"requests":"teams/uploads/notes/issues",
+			"_key":"yes"
+		},
+		"_key":"yes"
+	},
+	"_table_render_mapper":{
+		"_tables":"uploads/notes/lyrics/issues",
+		"_table_indecies":{
+			"matricies": {
+					"uploads":"1,2,3,4,5",
+					"notes":"1,2,3,4,5,6,7",
+					"teams":"1,2,3,4",
+					"lyrics":"1,2,3,4,5",
+					"issues":"1,2,3,4,5,6,7,8"
+			}
+		}
+	},
+	"_file_upload":{
+		"_category":"announcement/notes/public",
+		"_location":"media",
+		"file_types":"jpg/jpeg/pdf/docx/xlsx/xls/pptx/txt/png/bitmap/webp/png",
+		"valid_file_types":{
+			"audio":"wav/mp3/ogg/m4a",
+			"image":"png/jpg/jpeg/bitmap/webp/gif",
+			"video":"mp4/avi/3gp",
+
+			"application":{
+				"vnd.openxmlformats-officedocument.wordprocessingml.document":"document",
+				"vnd.openxmlformats-officedocument.spreadsheetml.sheet":"spreadsheet",
+				"pdf":"document",
+				"vnd.openxmlformats-officedocument.presentationml.presentation":"presentation"
+			}
+		}
+
+	}
+}
