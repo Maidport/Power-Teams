@@ -33,7 +33,7 @@ if(isset($data) & $data !=null){
 				#setcookie('_key',strrev($User[0]['sess']),$week->getTimestamp(),"/");
 			}
 
-            if($User != null & sizeof($User)>1){
+            if($User != "Failed"){
                 $View = $server->View('dashboard');
 				setcookie('_front',strrev($User[0]['sess']),$week->getTimestamp(),"/",null,null,false);
             }else{
