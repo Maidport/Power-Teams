@@ -1,9 +1,9 @@
 {
 	"server":{
-		"host":"localhost",
-		"username":"root",
-		"password":"",
-		"database":"teams"
+		"host":"sql223.main-hosting.eu",
+		"username":"u965072226_preview",
+		"password":"1Nc012123c7",
+		"database":"u965072226_Teams"
 	},
 	"Views":{
 		"Views":"dashboard/choir/uploads/teams/issues/messages/notes/today/profile",
