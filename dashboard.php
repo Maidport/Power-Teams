@@ -78,7 +78,6 @@ require(dirname(__FILE__)."/linker.php");
           </div>
           <div class="info-wrapper">
             <p class="user-name"><?php echo $User[1]['Firstname']." ".$User[1]['Lastname']; ?></p>
-            <?php echo $User[1]['photo']; ?>
           </div>
         </div>
         <ul class="navigation-menu">

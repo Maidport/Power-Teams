@@ -261,6 +261,8 @@ function upload_issue(){
 		},
 		success:function(data,msg){
 			var data = JSON.parse(data);
+			console.log(data)
+			console.log(msg)
 			//console.log(data.error);
 			if(data.error == 0){
 				var issue = document.getElementById('issue').value = "";

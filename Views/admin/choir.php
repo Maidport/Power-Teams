@@ -147,14 +147,8 @@
 			</div>
 			<div class="modal-body">
 				<h3 class="featurette-header text-center" id="_singer_name"></h3>
-
 				<p class="text-center border-top" id="_lyrics">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					Lyrics
 				</p>	
 				<div class="col-md-12 border-top">
 					<span class="badge badge-light right my-2" id="_upload_date"></span>
