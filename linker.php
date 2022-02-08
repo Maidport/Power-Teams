@@ -225,7 +225,7 @@ if(isset($_GET) & $_GET !=null){
 		$url = explode("/", $_GET['url']);
 		//Check for logout action
 		if($url[0]=='logout'){
-			session_unset($_SESSION['sess']);
+			session_unset();
 			$_SESSION = null;
 			//delete or destroy the cookie 
 			unset($_COOKIE['_key']);
