@@ -1,6 +1,6 @@
 <?php
 
-include(dirname(__FILE__)."\\config\\API.php");
+include(dirname(__FILE__)."/config/API.php");
 
 $server = new api();
 $data = $_POST;
