@@ -38,7 +38,7 @@ if($_COOKIE != null){
       <div class="row">
         <div class="col-12 logo-section">
           <a href="" class="logo">
-            <img src="./img/Logo light.png" alt="logo" />
+            <img src="./img/Logo Light.png" alt="logo" />
           </a>
         </div>
       </div>
