@@ -1,4 +1,7 @@
 <div class="container-fluid" stle="padding:0px;margin:0px;width:100%;text-align:center;display:table;">
+    <?php
+        if($User[1]['role']==0){
+      ?>
   <div class="btn-group mb-2" data-toggle="buttons">
     <label class="btn btn-success btn-rounded btn-xs" data-toggle="modal" data-target="#_member_add" >
       Add Member
@@ -6,6 +9,7 @@
       <i class="mdi mdi-account-plus"></i>
     </label>
   </div>
+  <?php } ?>
 </div>
 
 <div class="grid">
@@ -45,7 +49,8 @@
                               '.json_decode($server->_user_roles($_team[$i]['role']),true)[0]['value'].
                             '</div>';
                     }else{
-                      echo '<div class="btn btn-rounded social-btn btn-github"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      if($User[1]['role']==0){
+                          echo '<div class="btn btn-rounded social-btn btn-github"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                               <i class="mdi mdi-account-circle"></i>
                               '.json_decode($server->_user_roles($_team[$i]['role']),true)[0]['value'].
                             '</div>';
@@ -54,6 +59,12 @@
                           echo '<a class="dropdown-item p-1 link" onclick=\'r("'.$team_role[$j]['role']."@".strrev($_team[$i]['UID']).'")\' href="#">Assign to ('.$team_role[$j]['value'].')</a>';
                         }
                       echo '</div>';
+                      }else{
+                          echo '<div class="btn btn-rounded social-btn btn-github">
+                              <i class="mdi mdi-account-circle"></i>
+                              '.json_decode($server->_user_roles($_team[$i]['role']),true)[0]['value'].
+                            '</div>';
+                      }
                     }
                   ?>
                 </td>
