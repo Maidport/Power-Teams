@@ -382,7 +382,7 @@ function redirect(){
 	$site = "power-teams.herokuapp.com";
 	$link = $protocol."://".$HTTP_HOST."/".$site;
 	$_SESSION['msg'] = "Requested Page not found. Reverted to base page...";
-	header("Location: $link/$url[0]");
+	header("Location: /");
 }
 
 ?>
