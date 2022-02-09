@@ -1,10 +1,10 @@
 <?php
-require(dirname(__FILE__)."\\config.php");
+require(dirname(__FILE__)."/config.php");
 
 class controller extends config{
 	//get all the data from the init file
 	public function file(){
-		$file = dirname(__FILE__)."\init.json";
+		$file = dirname(__FILE__)."/init.json";
 		if(file_exists($file)  & file_get_contents($file) != null){
 			return json_decode(file_get_contents($file),true);
 		}else{
