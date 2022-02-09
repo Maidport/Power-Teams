@@ -240,7 +240,7 @@ if(isset($_GET) & $_GET !=null){
 			$link = $protocol."://".$HTTP_HOST."/".$site;
 			$_SESSION['msg'] = "Requested Page not found. Reverted to default Page";
 
-			header("Location: $link");
+			header("Location: /");
 		}
 		//Explode buy a ?
 
