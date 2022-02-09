@@ -235,7 +235,7 @@ if(isset($_GET) & $_GET !=null){
 
 			$protocol ="HTTP";
 			$HTTP_HOST = $_SERVER['HTTP_HOST'];
-			$site = "Teams/";
+			$site = "power-teams.herokuapp.com";
 
 			$link = $protocol."://".$HTTP_HOST."/".$site;
 			$_SESSION['msg'] = "Requested Page not found. Reverted to default Page";
@@ -264,7 +264,7 @@ if(isset($_GET) & $_GET !=null){
 		}else{
 			$protocol ="HTTP";
 			$HTTP_HOST = $_SERVER['HTTP_HOST'];
-			$site = "Teams";
+			$site = "power-teams.herokuapp.com";
 
 			$link = $protocol."://".$HTTP_HOST."/".$site;
 			$_SESSION['msg'] = "Requested Page not found. Reverted to base page...";
@@ -289,7 +289,7 @@ if(isset($_GET) & $_GET !=null){
 		}else{
 			$protocol ="HTTP";
 			$HTTP_HOST = $_SERVER['HTTP_HOST'];
-			$site = "Teams";
+			$site = "power-teams.herokuapp.com";
 
 			$link = $protocol."://".$HTTP_HOST."/".$site;
 			$_SESSION['msg'] = "Requested Page not found. Reverted to base page...";
@@ -379,7 +379,7 @@ if($User == null){
 function redirect(){
 	$protocol ="HTTP";
 	$HTTP_HOST = $_SERVER['HTTP_HOST'];
-	$site = "Teams";
+	$site = "power-teams.herokuapp.com";
 	$link = $protocol."://".$HTTP_HOST."/".$site;
 	$_SESSION['msg'] = "Requested Page not found. Reverted to base page...";
 	header("Location: $link/$url[0]");
